@@ -1,6 +1,7 @@
 .barra {
     display: flex;
     flex-direction: column;
+    padding: 3rem;
 
     @include tablet {
         flex-direction: row;
@@ -11,14 +12,14 @@
 .navegacion {
     @include tablet {
         display: flex;
-        justify-content: space-between;
-        gap: 2rem;
+        align-items: center;
     }
 
     a {
+        margin-right: 2rem;
         color: $blanco;
         text-decoration: none;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         display: block;
         text-align: center;
     }
