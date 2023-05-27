@@ -3,6 +3,11 @@
     padding: calc($separacion/2);
     margin: 0;
 
+    .navegacion {
+        opacity: 1;
+        visibility: visible;
+    }
+
     .contenedor-footer {
         padding-top: calc($separacion/2);
     }
