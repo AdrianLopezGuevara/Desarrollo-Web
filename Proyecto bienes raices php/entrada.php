@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes raices</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <a href="./index.html">
+                    <img src="./build/img/logo.svg" alt="Logo">
+                </a>
+                <div class="movil-menu">
+                    <img src="./build/img/barras.svg" alt="Icono menu">
+                </div>
+                <div class="derecha">
+                    <img class="dark-mode-btn" src="./build/img/dark-mode.svg" alt="Btn dark mode">
+                    <nav class="navegacion">
+                        <a href="./nosotros.html">Nosotros</a>
+                        <a href="./anuncios.html">Anuncios</a>
+                        <a href="./blog.html">Blog</a>
+                        <a href="./contacto.html">Contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor seccion contenido-centrado">
+        <h1>Guia para la decoración del hogar</h1>
+        <picture>
+            <source srcset="./build/img/destacada2.webp" type="image/webp">
+            <img loading="lazy" width="200" height="300" src="./build/img/destacada2.jpg" alt="Anuncio">
+        </picture>
+        <p class="info-meta">Escrito el: <span>26/05/2023</span> por: <span>Admin</span></p>
+        <div class="resumen-propiedad">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, ipsa facilis. Cum vero necessitatibus
+                quaerat similique libero ex quae velit excepturi consequuntur dolor omnis obcaecati harum ducimus, ipsam
+                iste eligendi? Perferendis ipsa fugiat eveniet voluptates ad facere, atque libero voluptas cupiditate
+                dolorum optio doloribus modi necessitatibus maiores ducimus eum cumque.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aut, amet sequi ipsum aperiam saepe
+                exercitationem quod laudantium alias voluptatum non iste animi pariatur repudiandae dicta voluptatibus
+                iure? Accusamus, non.</p>
+        </div>
+
+
+    </main>
+
+    <footer class="footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="./nosotros.html">Nosotros</a>
+                <a href="./anuncios.html">Anuncios</a>
+                <a href="./blog.html">Blog</a>
+                <a href="./contacto.html">Contacto</a>
+            </nav>
+        </div>
+        <p class="copyright">Todos los derechos reservados 2023&copy;</p>
+    </footer>
+    <script src="./build/js/bundle.min.js"></script>
+</body>
+
+</html>
