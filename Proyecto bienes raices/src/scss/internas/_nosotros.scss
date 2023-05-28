@@ -7,6 +7,10 @@
 .txt-nosotros blockquote {
     font-weight: bold;
     font-size: 2.6rem;
-    margin: 0;
+    margin: 3rem 0 0 0;
     padding: 1rem 0 3rem 0;
+
+    @include tablet {
+        margin: 0;
+    }
 }

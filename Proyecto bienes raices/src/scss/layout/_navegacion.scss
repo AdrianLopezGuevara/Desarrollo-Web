@@ -14,7 +14,8 @@
 .navegacion {
     visibility: hidden;
     opacity: 0;
-    transition: visibility .3s ease-in-out, opacity .5s linear;
+    height: 0;
+    transition: visibility .3s ease-in-out, opacity .3s linear, height .3s linear;
 
     @include tablet {
         display: flex;
@@ -55,6 +56,7 @@
 .mostrar {
     visibility: visible;
     opacity: 1;
+    height: auto;
 }
 
 .derecha {
