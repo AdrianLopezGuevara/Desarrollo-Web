@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <header class="header inicio">
+    <header class="header <?php echo $inicio ? 'inicio' : '' ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="./index.html">
+                <a href="./index.php">
                     <img src="./build/img/logo.svg" alt="Logo">
                 </a>
                 <div class="movil-menu">
@@ -22,13 +22,17 @@
                 <div class="derecha">
                     <img class="dark-mode-btn" src="./build/img/dark-mode.svg" alt="Btn dark mode">
                     <nav class="navegacion">
-                        <a href="./nosotros.html">Nosotros</a>
-                        <a href="./anuncios.html">Anuncios</a>
-                        <a href="./blog.html">Blog</a>
-                        <a href="./contacto.html">Contacto</a>
+                        <a href="./nosotros.php">Nosotros</a>
+                        <a href="./anuncios.php">Anuncios</a>
+                        <a href="./blog.php">Blog</a>
+                        <a href="./contacto.php">Contacto</a>
                     </nav>
                 </div>
             </div>
-            <h1>Venta de casa y departamentos exclusivos de lujo</h1>
+            <?php if ($inicio) {?>
+                <h1>Venta de casa y departamentos exclusivos de lujo</h1>
+            <?php } ?>
+            
+            
         </div>
     </header>
