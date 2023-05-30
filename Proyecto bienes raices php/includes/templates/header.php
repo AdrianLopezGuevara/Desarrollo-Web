@@ -6,26 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes raices</title>
-    <link rel="stylesheet" href="./build/css/app.css">
+    <link rel="stylesheet" href="<?php echo $admin ? '../..' : '.' ?>/build/css/app.css">
 </head>
 
 <body>
     <header class="header <?php echo $inicio ? 'inicio' : '' ?>">
         <div class="contenedor contenido-header">
             <div class="barra">
-                <a href="./index.php">
-                    <img src="./build/img/logo.svg" alt="Logo">
+                <a href="<?php echo $admin ? '../..' : '.' ?>/index.php">
+                    <img src="<?php echo $admin ? '../..' : '.' ?>/build/img/logo.svg" alt="Logo">
                 </a>
                 <div class="movil-menu">
-                    <img src="./build/img/barras.svg" alt="Icono menu">
+                    <img src="<?php echo $admin ? '../..' : '.' ?>/build/img/barras.svg" alt="Icono menu">
                 </div>
                 <div class="derecha">
-                    <img class="dark-mode-btn" src="./build/img/dark-mode.svg" alt="Btn dark mode">
+                    <img class="dark-mode-btn" src="<?php echo $admin ? '../..' : '.' ?>/build/img/dark-mode.svg" alt="Btn dark mode">
                     <nav class="navegacion">
-                        <a href="./nosotros.php">Nosotros</a>
-                        <a href="./anuncios.php">Anuncios</a>
-                        <a href="./blog.php">Blog</a>
-                        <a href="./contacto.php">Contacto</a>
+                        <a href="<?php echo $admin ? '../..' : '.' ?>/nosotros.php">Nosotros</a>
+                        <a href="<?php echo $admin ? '../..' : '.' ?>/anuncios.php">Anuncios</a>
+                        <a href="<?php echo $admin ? '../..' : '.' ?>/blog.php">Blog</a>
+                        <a href="<?php echo $admin ? '../..' : '.' ?>/contacto.php">Contacto</a>
                     </nav>
                 </div>
             </div>

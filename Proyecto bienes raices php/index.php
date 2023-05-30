@@ -53,7 +53,7 @@ incluirTemplate('header', $inicio = true);
                         <p>3</p>
                     </li>
                 </ul>
-                <a href="./anuncio.html" class="btn-amarillo-block">
+                <a href="./anuncio.php" class="btn-amarillo-block">
                     Ver propiedad
                 </a>
             </div>
@@ -81,7 +81,7 @@ incluirTemplate('header', $inicio = true);
                         <p>3</p>
                     </li>
                 </ul>
-                <a href="./anuncio.html" class="btn-amarillo-block">
+                <a href="./anuncio.php" class="btn-amarillo-block">
                     Ver propiedad
                 </a>
             </div>
@@ -109,21 +109,21 @@ incluirTemplate('header', $inicio = true);
                         <p>3</p>
                     </li>
                 </ul>
-                <a href="./anuncio.html" class="btn-amarillo-block">
+                <a href="./anuncio.php" class="btn-amarillo-block">
                     Ver propiedad
                 </a>
             </div>
         </div>
     </div>
     <div class="alinear-derecha">
-        <a href="./anuncios.html" class="btn-verde">Ver todas</a>
+        <a href="./anuncios.php" class="btn-verde">Ver todas</a>
     </div>
 </section>
 
 <section class="img-contacto seccion">
     <h2>Encuentra la case de tus sueños</h2>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, sapiente?</p>
-    <a href="./contacto.html" class="btn-amarillo">Contactanos</a>
+    <a href="./contacto.php" class="btn-amarillo">Contactanos</a>
 </section>
 
 <div class="contenedor seccion seccion-inferior">
@@ -137,7 +137,7 @@ incluirTemplate('header', $inicio = true);
                 </picture>
             </div>
             <div class="txt-entrada">
-                <a href="./entrada.html">
+                <a href="./entrada.php">
                     <h4>Terraza en el techo de tu casa</h4>
                     <p class="info-meta">Escrito el: <span>22/05/2023</span> por: <span>Admin</span></p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius distinctio, ipsum aliquam a
@@ -154,7 +154,7 @@ incluirTemplate('header', $inicio = true);
                 </picture>
             </div>
             <div class="txt-entrada">
-                <a href="./entrada.html">
+                <a href="./entrada.php">
                     <h4>Guia para la decoración del hogar</h4>
                     <p class="info-meta">Escrito el: <span>22/05/2023</span> por: <span>Admin</span></p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius distinctio, ipsum aliquam a
