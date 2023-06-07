@@ -13,7 +13,7 @@ incluirTemplate('header');
             </picture>
         </div>
         <div class="txt-entrada">
-            <a href="./entrada.html">
+            <a href="./entrada.php">
                 <h4>Terraza en el techo de tu casa</h4>
                 <p class="info-meta">Escrito el: <span>22/05/2023</span> por: <span>Admin</span></p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius distinctio, ipsum aliquam a
@@ -30,7 +30,7 @@ incluirTemplate('header');
             </picture>
         </div>
         <div class="txt-entrada">
-            <a href="./entrada.html">
+            <a href="./entrada.php">
                 <h4>Guia para la decoración del hogar</h4>
                 <p class="info-meta">Escrito el: <span>22/05/2023</span> por: <span>Admin</span></p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius distinctio, ipsum aliquam a
@@ -47,7 +47,7 @@ incluirTemplate('header');
             </picture>
         </div>
         <div class="txt-entrada">
-            <a href="./entrada.html">
+            <a href="./entrada.php">
                 <h4>Terraza en el techo de tu casa</h4>
                 <p class="info-meta">Escrito el: <span>22/05/2023</span> por: <span>Admin</span></p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius distinctio, ipsum aliquam a
@@ -64,7 +64,7 @@ incluirTemplate('header');
             </picture>
         </div>
         <div class="txt-entrada">
-            <a href="./entrada.html">
+            <a href="./entrada.php">
                 <h4>Guia para la decoración del hogar</h4>
                 <p class="info-meta">Escrito el: <span>22/05/2023</span> por: <span>Admin</span></p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius distinctio, ipsum aliquam a
